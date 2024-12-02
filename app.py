@@ -44,7 +44,7 @@ if __name__ == '__main__':
         #if predict_btn:
 
 # Check if input is empty or contains only whitespace " MOHAN"
-# mohan
+
         if not sentance.strip():  
             st.warning("Please enter some text to make a prediction!")
         else:
