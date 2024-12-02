@@ -43,7 +43,8 @@ if __name__ == '__main__':
     if predict_btn:
         #if predict_btn:
 
-        # Check if input is empty or contains only whitespace
+# Check if input is empty or contains only whitespace " MOHAN"
+# mohan
         if not sentance.strip():  
             st.warning("Please enter some text to make a prediction!")
         else:
@@ -51,7 +52,8 @@ if __name__ == '__main__':
             print(prediction_class)
             ##
             if prediction_class == "invalid":
-                st.warning("Your input contains only special characters \n or invalid text.Please enter proper text.")
+                #st.warning("Your input contains only special characters  or invalid text.Please enter proper text.")
+                st.warning("Your input contains only special characters  or invalid text..")
             ##
             elif  prediction_class == [1]:
                 st.success(" It's Real News ")
